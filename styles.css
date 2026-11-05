@@ -1,0 +1,46 @@
+<<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Switch - O mně a zdroje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nintendo Switch</h1>
+        <nav>
+            <a href="index.html">Úvod</a>
+            <a href="hry.html">Oblíbené hry</a>
+            <a href="o-mne.html" class="active">O mně a zdroje</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>O projektu</h2>
+            <p>Tento web vznikl jako školní projekt na téma mého oblíbeného koníčku – hraní videoher a konzole Nintendo Switch.</p>
+        </section>
+
+        <section class="sources">
+            <h2>Zdroje a citace AI</h2>
+            <h3>Použité externí zdroje:</h3>
+            <ul>
+                <li>Oficiální stránky Nintendo: <a href="https://www.nintendo.com" target="_blank">nintendo.com</a></li>
+                <li>Obrázky: Unsplash.com (volně dostupné fotky)</li>
+            </ul>
+
+            <h3>Citace použité umele inteligence (AI):</h3>
+            <p><strong>Použitá AI:</strong> Google Gemini</p>
+            <p><strong>Použité příkazy (prompty):</strong></p>
+            <ul>
+                <li><em>"Pomoz mi navrhnout strukturu a HTML/CSS kód pro školní web o Nintendo Switch obsahující 3 stránky, responzivní design a splňující požadavky na citaci AI."</em></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Můj školní projekt o Nintendo Switch</p>
+    </footer>
+</body>
+</html>
