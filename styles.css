@@ -1,46 +1,74 @@
-<<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nintendo Switch - O mně a zdroje</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Nintendo Switch</h1>
-        <nav>
-            <a href="index.html">Úvod</a>
-            <a href="hry.html">Oblíbené hry</a>
-            <a href="o-mne.html" class="active">O mně a zdroje</a>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
-    <main>
-        <section>
-            <h2>O projektu</h2>
-            <p>Tento web vznikl jako školní projekt na téma mého oblíbeného koníčku – hraní videoher a konzole Nintendo Switch.</p>
-        </section>
+header {
+    background-color: #e60012; /* Nintendovská červená */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-        <section class="sources">
-            <h2>Zdroje a citace AI</h2>
-            <h3>Použité externí zdroje:</h3>
-            <ul>
-                <li>Oficiální stránky Nintendo: <a href="https://www.nintendo.com" target="_blank">nintendo.com</a></li>
-                <li>Obrázky: Unsplash.com (volně dostupné fotky)</li>
-            </ul>
+nav {
+    margin-top: 10px;
+}
 
-            <h3>Citace použité umele inteligence (AI):</h3>
-            <p><strong>Použitá AI:</strong> Google Gemini</p>
-            <p><strong>Použité příkazy (prompty):</strong></p>
-            <ul>
-                <li><em>"Pomoz mi navrhnout strukturu a HTML/CSS kód pro školní web o Nintendo Switch obsahující 3 stránky, responzivní design a splňující požadavky na citaci AI."</em></li>
-            </ul>
-        </section>
-    </main>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
 
-    <footer>
-        <p>&copy; 2026 - Můj školní projekt o Nintendo Switch</p>
-    </footer>
-</body>
-</html>
+nav a:hover, nav a.active {
+    background-color: #b0000d;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #e60012;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
